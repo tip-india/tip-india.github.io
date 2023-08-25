@@ -34,6 +34,9 @@ File Name: responsive.css
     .helpful ul li {
         padding-right: 2px;
     }
+    .logo-img {
+        height: 100px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -46,6 +49,9 @@ File Name: responsive.css
     }
     .about_img figure img {
         padding-top: 30px;
+    }
+    .logo-img {
+        height: 120px;
     }
 }
 
@@ -103,5 +109,8 @@ File Name: responsive.css
     }
     .d_none {
         display: none;
+    }
+    .logo-img {
+        height: 130px;
     }
 }
