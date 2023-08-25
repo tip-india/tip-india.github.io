@@ -17,6 +17,12 @@ File Name: responsive.css
     .helpful ul li {
         padding-right: 22px;
     }
+    .logo-img-footer {
+        height: 200px;
+        position: absolute;
+        bottom: -48px;
+        left: 75px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -37,6 +43,12 @@ File Name: responsive.css
     .logo-img {
         height: 100px;
     }
+    .logo-img-footer {
+        height: 200px;
+        position: absolute;
+        bottom: -48px;
+        left: 75px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -51,6 +63,9 @@ File Name: responsive.css
         padding-top: 30px;
     }
     .logo-img {
+        height: 120px;
+    }
+    .logo-img-footer {
         height: 120px;
     }
 }
@@ -112,5 +127,15 @@ File Name: responsive.css
     }
     .logo-img {
         height: 130px;
+    }
+    .logo-img-footer {
+        height: 221px;
+        bottom: -94px;
+        left: -11px;
+        position: absolute;
+        margin-bottom: 20px;
+    }
+    .padding-50 {
+        padding-top: 50px;
     }
 }

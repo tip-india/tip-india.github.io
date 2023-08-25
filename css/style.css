@@ -145,6 +145,9 @@ img {
 .logo-img {
      height: 250px;
 }
+.logo-img-footer {
+     height: 250px;
+}
 
  :focus {
      outline: 0;
